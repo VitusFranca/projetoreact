@@ -31,6 +31,7 @@ input {
 }
 form{
   display: flex;
+  flex-wrap: wrap;
 }
 form input, form select{
   flex-direction: row-reverse;
