@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 import Tarefa from './components/Tarefa';
-import TarefaForm from './components/TarefaForm.jsx';
+import TarefaForm from './components/TarefaForm/index.jsx';
 
 import './App.css';
 

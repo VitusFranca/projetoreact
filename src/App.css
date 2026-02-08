@@ -8,7 +8,7 @@ body {
   margin: 0 auto 300px;
   background-color: rgb(187, 170, 170);
   padding: 20px 30px;
-  border-radius: 15%;
+  border-radius: 13%;
 }
 
 h1 {
@@ -25,4 +25,13 @@ p {
 
 input {
   box-sizing: border-box;
+  padding: 10px;
+  border-radius: 10px;
+  width: 300px;
+}
+form{
+  display: flex;
+}
+form input, form select{
+  flex-direction: row-reverse;
 }
