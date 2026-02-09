@@ -9,19 +9,19 @@ function App() {
   const [tarefas, setTarefas] = useState([
     {
       id:1,
-      text: "criar funcionalidade x no sistema",
+      text: "Criar projetos",
       category: "Trabalho",
       isCompleted: false,
     },
     {
       id:2,
-      text: "Ir pra academia",
+      text: "Malhar",
       category: "Pessoal",
       isCompleted: false,
     },
     {
       id:3,
-      text: "Estudar React",
+      text: "Estudar Nest.js",
       category: "Estudos",
       isCompleted: false,
     }
